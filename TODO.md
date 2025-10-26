@@ -14,27 +14,30 @@
 ## 🎨 Phase 1: Core UI & Layout (สัปดาห์ที่ 1-2)
 
 ### Layout & Navigation
-- [ ] สร้าง MainLayout (Header, Footer, Navigation)
-- [ ] สร้าง Header พร้อม Search Bar
-- [ ] สร้าง Footer พร้อมลิงก์สำคัญ
-- [ ] สร้าง Theme Toggle (Light/Dark Mode)
-- [ ] สร้าง Responsive Navigation
-- [ ] สร้าง Mobile Menu (Hamburger)
-- [ ] สร้าง User Menu Dropdown
-- [ ] สร้าง Notification Bell
+
+- [x] สร้าง MainLayout (Header, Footer, Navigation)
+- [x] สร้าง Header พร้อม Search Bar
+- [x] สร้าง Footer พร้อมลิงก์สำคัญ
+- [x] สร้าง Theme Toggle (Light/Dark Mode)
+- [x] สร้าง Responsive Navigation
+- [x] สร้าง Mobile Menu (Hamburger)
+- [x] สร้าง User Menu Dropdown
+- [x] สร้าง Notification Bell
 
 ### หน้า Landing Page
-- [ ] สร้างหน้า Landing Page ตาม CREATE_PAGE_PATTERN.md
-- [ ] Hero Section พร้อม CTA
-- [ ] Popular Categories Section
-- [ ] Featured Vendors Section
-- [ ] How It Works Section
-- [ ] Testimonials/Reviews Section
-- [ ] CTA Section (Get Started)
-- [ ] Master data สำหรับ categories
-- [ ] Master data สำหรับ featured vendors
+
+- [x] สร้างหน้า Landing Page ตาม CREATE_PAGE_PATTERN.md
+- [x] Hero Section พร้อม CTA
+- [x] Popular Categories Section
+- [x] Featured Vendors Section
+- [x] How It Works Section
+- [x] Testimonials/Reviews Section
+- [x] CTA Section (Get Started)
+- [x] Master data สำหรับ categories
+- [x] Master data สำหรับ featured vendors
 
 ### Shared Components
+
 - [ ] Button Component (Primary, Secondary, Outline)
 - [ ] Input Component
 - [ ] Select Component
@@ -54,6 +57,7 @@
 ## 👤 Phase 2: Authentication & User Management (สัปดาห์ที่ 3-4)
 
 ### Authentication
+
 - [ ] สร้างหน้า Login
 - [ ] สร้างหน้า Register
 - [ ] สร้างหน้า Forgot Password
@@ -65,6 +69,7 @@
 - [ ] Auth Store (Zustand)
 
 ### User Profile
+
 - [ ] สร้างหน้า User Profile
 - [ ] แก้ไขข้อมูลส่วนตัว
 - [ ] เปลี่ยนรหัสผ่าน
@@ -73,6 +78,7 @@
 - [ ] Manage Addresses
 
 ### User Types
+
 - [ ] Role-based Access Control (Customer, Vendor, Admin)
 - [ ] Customer Dashboard Layout
 - [ ] Vendor Dashboard Layout
@@ -81,6 +87,7 @@
 ## 🏪 Phase 3: Vendor/Provider System (สัปดาห์ที่ 5-7)
 
 ### Vendor Registration
+
 - [ ] สร้างหน้า Vendor Registration
 - [ ] Business Information Form
 - [ ] Category Selection
@@ -89,6 +96,7 @@
 - [ ] Vendor Onboarding Flow
 
 ### Vendor Profile
+
 - [ ] สร้างหน้า Vendor Profile (Public View)
 - [ ] Business Information Section
 - [ ] Services & Packages Section
@@ -99,6 +107,7 @@
 - [ ] Location Map Section
 
 ### Vendor Dashboard
+
 - [ ] Dashboard Overview (Stats, Charts)
 - [ ] Manage Bookings
 - [ ] Manage Services/Packages
@@ -110,6 +119,7 @@
 - [ ] Settings
 
 ### Services Management
+
 - [ ] Create Service/Package
 - [ ] Edit Service/Package
 - [ ] Delete Service/Package
@@ -122,6 +132,7 @@
 ## 🔍 Phase 4: Marketplace & Discovery (สัปดาห์ที่ 8-10)
 
 ### Browse & Search
+
 - [ ] หน้า Marketplace (Browse All Vendors)
 - [ ] Category Pages (แยกตามหมวดหมู่)
 - [ ] Advanced Search Page
@@ -132,6 +143,7 @@
 - [ ] Search Suggestions/Autocomplete
 
 ### Vendor Discovery
+
 - [ ] Vendor Card Component
 - [ ] Vendor List View
 - [ ] Vendor Grid View
@@ -142,6 +154,7 @@
 - [ ] Recommended Vendors (AI-based)
 
 ### Location Features
+
 - [ ] Location Search & Autocomplete
 - [ ] Geolocation Support
 - [ ] Service Area Display
@@ -152,6 +165,7 @@
 ## 📅 Phase 5: Booking System (สัปดาห์ที่ 11-13)
 
 ### Booking Flow
+
 - [ ] หน้า Service Detail
 - [ ] Booking Form
 - [ ] Date & Time Selection
@@ -163,6 +177,7 @@
 - [ ] Terms & Conditions
 
 ### Booking Management
+
 - [ ] หน้า My Bookings (Customer)
 - [ ] Booking Detail Page
 - [ ] Booking Status Tracking
@@ -173,6 +188,7 @@
 - [ ] Past Bookings
 
 ### Vendor Booking Management
+
 - [ ] หน้า Incoming Bookings (Vendor)
 - [ ] Accept/Decline Booking
 - [ ] View Booking Details
@@ -181,6 +197,7 @@
 - [ ] Booking Notifications
 
 ### Availability Management
+
 - [ ] Vendor Calendar Setup
 - [ ] Block Dates/Times
 - [ ] Set Working Hours
@@ -191,6 +208,7 @@
 ## 💬 Phase 6: Communication (สัปดาห์ที่ 14-15)
 
 ### Real-time Chat
+
 - [ ] Chat Interface
 - [ ] One-on-one Chat (Customer-Vendor)
 - [ ] Message List
@@ -204,6 +222,7 @@
 - [ ] Unread Message Count
 
 ### Notifications
+
 - [ ] Notification Center
 - [ ] Real-time Notifications
 - [ ] Email Notifications
@@ -220,6 +239,7 @@
   - [ ] Event Reminders
 
 ### Inquiry System
+
 - [ ] Send Inquiry Form
 - [ ] View Inquiries (Vendor)
 - [ ] Respond to Inquiries
@@ -228,6 +248,7 @@
 ## 💳 Phase 7: Payment System (สัปดาห์ที่ 16-18)
 
 ### Payment Integration
+
 - [ ] Stripe Integration
 - [ ] Payment Gateway Setup
 - [ ] Payment Methods:
@@ -238,6 +259,7 @@
 - [ ] Payment Status Tracking
 
 ### Escrow System
+
 - [ ] Escrow Payment Hold
 - [ ] Release Payment (after service)
 - [ ] Refund Processing
@@ -245,6 +267,7 @@
 - [ ] Dispute Management
 
 ### Financial Management
+
 - [ ] หน้า Payment History
 - [ ] Invoice Generation
 - [ ] Receipt Download
@@ -254,6 +277,7 @@
 - [ ] Transaction History
 
 ### Pricing & Packages
+
 - [ ] Dynamic Pricing
 - [ ] Seasonal Pricing
 - [ ] Discount Codes/Coupons
@@ -264,6 +288,7 @@
 ## ⭐ Phase 8: Reviews & Ratings (สัปดาห์ที่ 19-20)
 
 ### Review System
+
 - [ ] หน้า Write Review
 - [ ] Rating (1-5 Stars)
 - [ ] Review Text
@@ -273,6 +298,7 @@
 - [ ] Review Moderation
 
 ### Reviews Display
+
 - [ ] Reviews List on Vendor Profile
 - [ ] Reviews Filter & Sort
 - [ ] Helpful/Not Helpful Votes
@@ -283,6 +309,7 @@
 - [ ] Recent Reviews
 
 ### Vendor Response
+
 - [ ] Respond to Reviews
 - [ ] Thank Customers
 - [ ] Address Concerns
@@ -291,6 +318,7 @@
 ## 🎯 Phase 9: Event Project Management (สัปดาห์ที่ 21-23)
 
 ### Event Creation
+
 - [ ] หน้า Create Event
 - [ ] Event Information Form
 - [ ] Event Type Selection
@@ -301,6 +329,7 @@
 - [ ] Event Timeline
 
 ### Project Dashboard
+
 - [ ] Event Dashboard Overview
 - [ ] Project Timeline View
 - [ ] Task Checklist
@@ -311,6 +340,7 @@
 - [ ] Event Day Countdown
 
 ### Multi-Vendor Management
+
 - [ ] Add Multiple Vendors to Event
 - [ ] Vendor Coordination
 - [ ] Individual Booking Status
@@ -319,6 +349,7 @@
 - [ ] Timeline Synchronization
 
 ### Package Builder
+
 - [ ] Create Event Package
 - [ ] Select Multiple Vendors
 - [ ] Bundle Pricing
@@ -329,12 +360,14 @@
 ## 📊 Phase 10: Analytics & Reports (สัปดาห์ที่ 24-25)
 
 ### Customer Analytics
+
 - [ ] Booking History Charts
 - [ ] Spending Analytics
 - [ ] Favorite Vendors
 - [ ] Event Statistics
 
 ### Vendor Analytics
+
 - [ ] Dashboard with Key Metrics
 - [ ] Booking Trends Chart
 - [ ] Revenue Chart
@@ -346,6 +379,7 @@
 - [ ] Competitor Analysis (Optional)
 
 ### Admin Analytics
+
 - [ ] Platform Overview
 - [ ] Total GMV (Gross Merchandise Value)
 - [ ] Active Users
@@ -359,6 +393,7 @@
 ## 🛡️ Phase 11: Admin Panel (สัปดาห์ที่ 26-28)
 
 ### User Management
+
 - [ ] User List
 - [ ] User Details
 - [ ] Ban/Suspend Users
@@ -366,6 +401,7 @@
 - [ ] User Verification
 
 ### Vendor Management
+
 - [ ] Vendor Approval System
 - [ ] Vendor List
 - [ ] Vendor Verification
@@ -374,6 +410,7 @@
 - [ ] Ban/Suspend Vendors
 
 ### Content Management
+
 - [ ] Category Management
 - [ ] Homepage Banner Management
 - [ ] Promotion Management
@@ -381,6 +418,7 @@
 - [ ] Blog/Content Pages (Optional)
 
 ### Booking Management
+
 - [ ] All Bookings Overview
 - [ ] Booking Details
 - [ ] Resolve Disputes
@@ -388,6 +426,7 @@
 - [ ] Booking Statistics
 
 ### System Settings
+
 - [ ] Platform Settings
 - [ ] Commission Settings
 - [ ] Email Templates
@@ -397,6 +436,7 @@
 - [ ] SEO Settings
 
 ### Reports & Analytics
+
 - [ ] Revenue Reports
 - [ ] User Reports
 - [ ] Booking Reports
@@ -406,6 +446,7 @@
 ## 🚀 Phase 12: Advanced Features (สัปดาห์ที่ 29-32)
 
 ### AI & Recommendations
+
 - [ ] AI-based Vendor Recommendations
 - [ ] Smart Search
 - [ ] Personalized Homepage
@@ -413,6 +454,7 @@
 - [ ] Demand Forecasting
 
 ### Advanced Search
+
 - [ ] Faceted Search
 - [ ] Search Analytics
 - [ ] Search History
@@ -420,12 +462,14 @@
 - [ ] Search Alerts
 
 ### Wishlist & Favorites
+
 - [ ] Add to Wishlist
 - [ ] Manage Favorites
 - [ ] Share Wishlist
 - [ ] Wishlist Notifications
 
 ### Social Features
+
 - [ ] Share Vendor Profile
 - [ ] Share Event
 - [ ] Social Media Integration
@@ -433,6 +477,7 @@
 - [ ] Loyalty Points System
 
 ### Mobile Optimization
+
 - [ ] Progressive Web App (PWA)
 - [ ] Mobile-First Design
 - [ ] Touch Gestures
@@ -440,12 +485,14 @@
 - [ ] App Install Prompt
 
 ### Internationalization
+
 - [ ] Multi-language Support (Thai, English)
 - [ ] Currency Conversion
 - [ ] RTL Support (Optional)
 - [ ] Locale-based Content
 
 ### Performance Optimization
+
 - [ ] Image Optimization (Next.js Image)
 - [ ] Lazy Loading
 - [ ] Code Splitting
@@ -458,6 +505,7 @@
 ## 🔒 Phase 13: Security & Compliance (สัปดาห์ที่ 33-34)
 
 ### Security
+
 - [ ] Data Encryption
 - [ ] XSS Protection
 - [ ] CSRF Protection
@@ -468,6 +516,7 @@
 - [ ] Content Security Policy
 
 ### Privacy & Compliance
+
 - [ ] Privacy Policy Page
 - [ ] Terms of Service Page
 - [ ] Cookie Consent
@@ -477,6 +526,7 @@
 - [ ] User Consent Management
 
 ### Backup & Recovery
+
 - [ ] Database Backup
 - [ ] Disaster Recovery Plan
 - [ ] Data Migration Tools
@@ -484,6 +534,7 @@
 ## 📱 Phase 14: Testing & QA (สัปดาห์ที่ 35-36)
 
 ### Testing
+
 - [ ] Unit Tests (Key Components)
 - [ ] Integration Tests
 - [ ] E2E Tests (Critical Flows)
@@ -494,6 +545,7 @@
 - [ ] Mobile Responsiveness Tests
 
 ### Quality Assurance
+
 - [ ] Manual Testing
 - [ ] User Acceptance Testing (UAT)
 - [ ] Bug Tracking & Fixing
@@ -503,6 +555,7 @@
 ## 🌐 Phase 15: Deployment & Launch (สัปดาห์ที่ 37-38)
 
 ### Pre-Launch
+
 - [ ] Domain Setup
 - [ ] SSL Certificate
 - [ ] Email Service Setup
@@ -512,6 +565,7 @@
 - [ ] Analytics Setup (Google Analytics, Mixpanel)
 
 ### Deployment
+
 - [ ] Production Environment Setup
 - [ ] Database Migration
 - [ ] Environment Variables
@@ -520,6 +574,7 @@
 - [ ] Load Testing
 
 ### Post-Launch
+
 - [ ] Monitoring & Alerts
 - [ ] Error Tracking
 - [ ] User Feedback Collection
@@ -530,6 +585,7 @@
 ## 📚 Phase 16: Documentation (สัปดาห์ที่ 39-40)
 
 ### Technical Documentation
+
 - [ ] API Documentation
 - [ ] Database Schema Documentation
 - [ ] Architecture Documentation
@@ -537,6 +593,7 @@
 - [ ] Developer Guide
 
 ### User Documentation
+
 - [ ] User Guide (Customer)
 - [ ] Vendor Guide
 - [ ] FAQ Page
@@ -544,6 +601,7 @@
 - [ ] Video Tutorials (Optional)
 
 ### Business Documentation
+
 - [ ] Business Model Documentation
 - [ ] Marketing Strategy
 - [ ] Growth Plan
@@ -551,6 +609,7 @@
 ## 🎉 Additional Features (Future)
 
 ### Advanced Features
+
 - [ ] Video Consultations
 - [ ] Live Streaming Events
 - [ ] Marketplace for Digital Products
@@ -563,6 +622,7 @@
 - [ ] Blockchain Verification (Optional)
 
 ### Marketing Features
+
 - [ ] Email Marketing Integration
 - [ ] Affiliate Program
 - [ ] Influencer Partnerships
@@ -571,6 +631,7 @@
 - [ ] Limited Time Offers
 
 ### Community Features
+
 - [ ] Community Forum
 - [ ] Event Planning Tips Blog
 - [ ] Vendor Success Stories
