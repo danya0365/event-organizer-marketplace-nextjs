@@ -1,9 +1,10 @@
 "use client";
 
-import { Bell, Heart, Menu, Search, User, X } from "lucide-react";
+import { Bell, Heart, Menu, Search, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
+import { UserMenu } from "./UserMenu";
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -97,13 +98,7 @@ export function Header() {
             </Link>
 
             {/* User Menu */}
-            <Link
-              href="/login"
-              className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-            >
-              <User className="w-5 h-5" />
-              <span className="hidden sm:inline">เข้าสู่ระบบ</span>
-            </Link>
+            <UserMenu />
 
             {/* Mobile Menu Toggle */}
             <button
